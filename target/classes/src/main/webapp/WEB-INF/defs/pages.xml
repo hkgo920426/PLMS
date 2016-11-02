@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+  <definition name="common" template="/WEB-INF/layout/base.jsp" />
+  
+  <definition name="index" extends="common">
+    <put-attribute name="title" value="Leave Management System" />
+    <put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+    <put-attribute name="current" value="index" />
+  </definition>
+  
+  <definition name="userprofiles" extends="common">
+    <put-attribute name="title" value="User Profile" />
+    <put-attribute name="body" value="/WEB-INF/jsp/UserProfile.jsp" />
+    <put-attribute name="current" value="userprofiles" />
+  </definition>
+  <definition name="searchuserprofiles" extends="common">
+    <put-attribute name="title" value="User Profile" />
+    <put-attribute name="body" value="/WEB-INF/jsp/searchuserprofiles.jsp" />
+    <put-attribute name="current" value="searchuserprofiles" />
+  </definition>
+  
+  <definition name="mail" extends="common">
+    <put-attribute name="title" value="My Mail" />
+    <put-attribute name="body" value="/WEB-INF/jsp/mail.jsp" />
+    <put-attribute name="current" value="mail" />
+  </definition>
+  
+  <definition name="applyleaves" extends="common">
+    <put-attribute name="title" value="Apply Leave" />
+    <put-attribute name="body" value="/WEB-INF/jsp/applyleave.jsp" />
+    <put-attribute name="current" value="applyleaves" />
+  </definition>
+  
+   <definition name="approveleaves" extends="common">
+    <put-attribute name="title" value="Apply Leave" />
+    <put-attribute name="body" value="/WEB-INF/jsp/approveleave.jsp" />
+    <put-attribute name="current" value="approveleaves" />
+  </definition>
+  
+  <definition name="ApplyForm" extends="common">
+    <put-attribute name="title" value="Apply Form" />
+    <put-attribute name="body" value="/WEB-INF/jsp/ApplyForm.jsp" />
+    <put-attribute name="current" value="ApplyForm" />
+  </definition>
+  
+    <definition name="UserForm" extends="common">
+    <put-attribute name="title" value="User Form" />
+    <put-attribute name="body" value="/WEB-INF/jsp/UserForm.jsp" />
+    <put-attribute name="current" value="UserForm" />
+  </definition>
+  
+  <definition name="EmailForm" extends="common">
+    <put-attribute name="title" value="Email Form" />
+    <put-attribute name="body" value="/WEB-INF/jsp/EmailForm.jsp" />
+    <put-attribute name="current" value="EmailForm" />
+  </definition>
+</tiles-definitions>
