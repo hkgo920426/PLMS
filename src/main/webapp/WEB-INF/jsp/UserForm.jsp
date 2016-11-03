@@ -36,11 +36,12 @@
 			</tr>
 			<tr>
 				<td>Role:</td>
-			    <td>&nbsp;&nbsp;&nbsp;&nbsp;<form:radiobutton path="role" value="Employee" />Employee&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <form:radiobutton
-					path="role" value="Admin" />Admin</td>
+			    	<td>&nbsp;&nbsp;&nbsp;&nbsp;<form:radiobutton path="role" value="Employee" />Employee
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<form:radiobutton path="role" value="Admin" />Admin</td>
 			</tr>
 			<tr>
-			<td>&nbsp;</td><td>&nbsp;</td>
+				<td>&nbsp;</td><td>&nbsp;</td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center"><input type="submit" value="Save changes"></td>
